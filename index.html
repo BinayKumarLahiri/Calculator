@@ -13,8 +13,9 @@
 <body>
     <div class="screen">
         <div class="display">
-            <input type="text" name="exp" id="exp" placeholder="0">
-            <div class="ans"></div>
+            <!-- <input type="text" name="exp" id="exp" placeholder="0"> -->
+            <div data-placeholder='0' class="input" id="exp"></div>
+            <div class="ans" id="ans"></div>
         </div>
         <div class="buttonpad">
             <img src="layered-waves-haikei.svg" alt="">
@@ -35,7 +36,7 @@
                 <button class="btn digit">2</button>
                 <button class="btn digit">3</button>
                 <button id="calculate" class="btn equal">=</button>
-                <button class="btn">%</button>
+                <button id="percentage" class="btn">%</button>
                 <button class="btn digit">0</button>
                 <button class="btn digit">.</button>
             </div>

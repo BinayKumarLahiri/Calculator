@@ -106,8 +106,8 @@ body{
     color: tomato;
 }
 button{
-    width: 50px;
-    aspect-ratio: 1/1;
+    /* width: 50px;
+    aspect-ratio: 1/1; */
     justify-self: center;
     border: none;
     outline: none;
